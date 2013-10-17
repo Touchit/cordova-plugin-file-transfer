@@ -93,4 +93,11 @@
         </js-module>
     </platform>
 
+    <!-- windows81 -->
+    <platform name="windows81">
+      <js-module src="www/windows8/FileTransferProxy.js" name="FileTransferProxy">
+        <clobbers target="" />
+      </js-module>
+    </platform>
+
 </plugin>
